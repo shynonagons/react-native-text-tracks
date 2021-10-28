@@ -1,0 +1,35 @@
+{
+    "name": "react-native-text-tracks",
+    "version": "0.0.3",
+    "description": "Implementation-agnostic text track support for React Native video playback",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/shynonagons/react-native-text-tracks.git"
+    },
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "npx tsc"
+    },
+    "author": "shynonagons",
+    "keywords": [
+        "react-native",
+        "subtitles",
+        "captions",
+        "text tracks",
+        "video"
+    ],
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-native": "^0.66.1",
+        "srt-parser-2": "^1.1.3",
+        "vtt-to-json": "^0.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^16.4.7",
+        "ts-node": "^10.1.0",
+        "typescript": "^4.3.5"
+    }
+}
